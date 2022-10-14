@@ -1,0 +1,62 @@
+body {
+
+    border: thick;
+    border-color: white;
+    background-color: #66cc91;
+
+}
+
+div .content {
+    margin-top: 200px;
+    margin-left: 1000px;
+    padding-top: 30px;
+    height: 500px;
+    width: 700px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    font-style: bold;
+
+}
+
+
+div h1 {
+
+    animation: text 4s 1;
+    animation-iteration-count: infinite;
+
+}
+
+div input {
+
+    height: 30px;
+    width: 250px;
+}
+
+@keyframes text {
+
+    0% {
+
+        color: white;
+
+    }
+
+
+    50% {
+
+        color: #66cc91;
+
+    }
+
+    100% {
+
+        color: white;
+
+    }
+
+
+
+}
